@@ -1,6 +1,17 @@
 import React from "react";
 import "./Hero.css";
-import { github, instagram, linkedin, girl, vector1, vector2, glassesemoji, crown, thumbup } from "../../assets";
+import {
+  github,
+  instagram,
+  linkedin,
+  girl,
+  vector1,
+  vector2,
+  glassesemoji,
+  crown,
+  thumbup,
+} from "../../assets";
+import { FloatingDiv } from "../../components";
 
 function Hero() {
   return (
@@ -53,6 +64,9 @@ function Hero() {
         <img src={vector1} alt="blob" />
         <img src={vector2} alt="blob" />
         <img src={girl} alt="girl" />
+        <div>
+          <FloatingDiv />
+        </div>
       </div>
     </section>
   );
