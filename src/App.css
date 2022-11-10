@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;700&display=swap");
+/* #eb1010  wave */
+/* #ff0000  thumbup */
+
+:root {
+  --yellow: #f52c2c;
+  --orange: #fc1f1f;
+  --black: #242d49;
+  --gray: #788097;
+  --blueCard: #ddf8fe;
+  --purple: rgb(238 210 255);
+  --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+  --orangeCard: rgba(252, 31, 31, 0.45);
+  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+
+.App {
+  padding: 0.5rem 3.5rem;
+  overflow: hidden;
+  color: var(--black);
+}
+
+* {
+  font-family: "Epilogue";
+  font-weight: normal;
+  font-size: 20px;
+}
+
+body {
+  margin: 0;
+}
+
+.n-wrapper {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.n-left {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 2rem;
+}
+
+.n-name {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.n-right {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+}
+
+.n-list {
+  flex: 10;
+}
+
+.n-list > ul {
+  
+}
