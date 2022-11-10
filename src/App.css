@@ -3,14 +3,14 @@
 /* #ff0000  thumbup */
 
 :root {
-  --yellow: #f52c2c;
-  --orange: #fc1f1f;
-  --black: #242d49;
+  --yellow: #a12cf5;
+  --red: #ab1ffc;
+  --black: rgb(37, 24, 24);
   --gray: #788097;
   --blueCard: #ddf8fe;
   --purple: rgb(238 210 255);
   --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
-  --orangeCard: rgba(252, 31, 31, 0.45);
+  --redCard: rgba(219, 31, 252, 0.45);
   --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
 }
 
@@ -30,36 +30,22 @@ body {
   margin: 0;
 }
 
-.n-wrapper {
-  height: 10vh;
-  display: flex;
-  justify-content: space-between;
-}
-
-.n-left {
-  display: flex;
-  flex: 1;
-  align-items: center;
-  gap: 2rem;
-}
-
-.n-name {
-  font-size: 1.3rem;
+.button {
+  border: none;
+  outline: none;
+  padding: 18px 26px 18px 26px;
+  border-radius: 34px;
+  font-size: 18px;
   font-weight: bold;
+  color: #fff;
+  background: linear-gradient(180deg, #a12cf5 26.71%, #ab1ffc 99.36%);
+  box-shadow: 0px 15px 15px 3px rgba(244, 40, 251, 0.42);
 }
 
-.n-right {
-  display: flex;
-  flex: 1;
-  align-items: center;
-  justify-content: center;
-  font-weight: 400;
+.button:hover {
+  background: #fff;
+  color: var(--red);
+  cursor: pointer;
+  border: 1px solid var(--red);
 }
 
-.n-list {
-  flex: 10;
-}
-
-.n-list > ul {
-  
-}
