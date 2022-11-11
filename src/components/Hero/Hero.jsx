@@ -64,9 +64,14 @@ function Hero() {
         <img src={vector1} alt="blob" />
         <img src={vector2} alt="blob" />
         <img src={girl} alt="girl" />
-        <div>
-          <FloatingDiv />
+        <img src={glassesemoji} alt="" />
+        <div style={{ top: "-4%", left: "68%" }}>
+          <FloatingDiv image={crown} txt1="Frontend" txt2="Developer" />
         </div>
+        <div style={{ top: "18rem", left: "0rem " }}>
+          <FloatingDiv image={thumbup} txt1="Software" txt2="Tester" />
+        </div>
+        <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
       </div>
     </section>
   );
