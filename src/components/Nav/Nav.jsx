@@ -1,9 +1,9 @@
 import React from "react";
-import "./Navbar.css";
+import "./Nav.css";
 
-function NavBar() {
+function Nav() {
   return (
-    <section className="n-wrapper" style={{ display: "none" }}>
+    <section className="n-wrapper">
       <div className="n-left">
         <div className="n-name">Jessica</div>
         <span>toggle</span>
@@ -23,4 +23,4 @@ function NavBar() {
   );
 }
 
-export default NavBar;
+export default Nav;
