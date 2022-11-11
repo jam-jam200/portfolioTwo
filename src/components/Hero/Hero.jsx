@@ -72,6 +72,16 @@ function Hero() {
           <FloatingDiv image={thumbup} txt1="Software" txt2="Tester" />
         </div>
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
+        <div
+          className="blur"
+          style={{
+            background: "#d7b8b8",
+            top: "17rem",
+            width: "21rem",
+            height: "11rem",
+            left: "-9rem",
+          }}
+        ></div>
       </div>
     </section>
   );
