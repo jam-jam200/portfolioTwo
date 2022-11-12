@@ -4,5 +4,6 @@ import Hero from "./Hero/Hero";
 import FloatingDiv from "./FloatinDiv/FloatingDiv";
 import Service from "./Services/Service";
 import Card from "./Card/Card";
+import Experience from "./Experience/Experience";
 
-export { NavBar,Nav, Hero, FloatingDiv, Service, Card };
+export { NavBar, Nav, Hero, FloatingDiv, Service, Card, Experience };
