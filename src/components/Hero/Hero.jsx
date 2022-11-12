@@ -71,7 +71,8 @@ function Hero() {
         <div style={{ top: "18rem", left: "0rem " }}>
           <FloatingDiv image={thumbup} txt1="Software" txt2="Tester" />
         </div>
-        <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
+        <div className="blur" style={{ background: " #ef999994" }}></div>
+
         <div
           className="blur"
           style={{

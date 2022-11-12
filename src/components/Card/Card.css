@@ -1,6 +1,6 @@
 .card {
-  width: 10rem;
-  height: 13rem;
+  width: 14rem;
+  height: 15rem;
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -8,4 +8,24 @@
   align-items: center;
   text-align: center;
   background: rgba(255, 255, 255, 0.26);
+  border: 8px solid var(--redCard);
+  box-shadow: var(--boxShadow);
+  border-radius: 20px;
+  padding: 0px 26px 2rem 26px;
+}
+
+.card span:nth-child(2){
+  color: var(--black);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card span:nth-child(3){
+  color: var(--gray);
+  font-size: 18px;
+}
+
+card > img {
+  transform: scale(0.6);
+  margin-bottom: -2rem;
 }

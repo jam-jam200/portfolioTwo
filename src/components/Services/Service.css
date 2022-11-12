@@ -35,3 +35,21 @@
   width: 9rem;
   margin-top: 1rem;
 }
+
+.cards {
+  position: relative;
+}
+
+.cards > * {
+  position: absolute;
+}
+
+.s-blur1 {
+  left: -10rem;
+  top: 13rem;
+}
+
+.s-blur2 {
+  top: 13rem;
+  left: 18rem;
+}
