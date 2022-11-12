@@ -1,5 +1,13 @@
 import "./App.css";
-import { NavBar, Nav, Hero, Service, Experience, Works } from "./components";
+import {
+  NavBar,
+  Nav,
+  Hero,
+  Service,
+  Experience,
+  Works,
+  Portfolio,
+} from "./components";
 
 function App() {
   return (
@@ -10,6 +18,7 @@ function App() {
       <Service />
       <Experience />
       <Works />
+      <Portfolio />
     </div>
   );
 }

@@ -6,5 +6,16 @@ import Service from "./Services/Service";
 import Card from "./Card/Card";
 import Experience from "./Experience/Experience";
 import Works from "./Works/Works";
+import Portfolio from "./Portfolio/Portfolio";
 
-export { NavBar, Nav, Hero, FloatingDiv, Service, Card, Experience, Works };
+export {
+  NavBar,
+  Nav,
+  Hero,
+  FloatingDiv,
+  Service,
+  Card,
+  Experience,
+  Works,
+  Portfolio,
+};

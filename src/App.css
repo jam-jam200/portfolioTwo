@@ -1,7 +1,4 @@
-@font-face {
-  font-family: Gumela;
-  src: url(../src/font/*);
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap");
 
 :root {
   --yellow: #a12cf5;
@@ -22,7 +19,7 @@
 }
 
 * {
-  font-family: "Gumela";
+  font-family: "Poppins";
   font-weight: normal;
   font-size: 20px;
 }
@@ -50,4 +47,3 @@ body {
   cursor: pointer;
   border: 1px solid var(--red);
 }
-
