@@ -1,3 +1,4 @@
+import Alabian from "./Alabian.webp";
 import amazon from "./amazon.png";
 import crown from "./crown.png";
 import ecommerce from "./ecommerce.png";
@@ -23,6 +24,7 @@ import vector2 from "./vector2.png";
 import wave from "./wave.png";
 
 export {
+  Alabian,
   amazon,
   crown,
   ecommerce,
