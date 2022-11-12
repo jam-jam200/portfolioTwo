@@ -30,7 +30,7 @@
 .circle::before {
   border-radius: 100%;
   content: "";
-  background-image: linear-gradient(to bottom, #d7b8b8 0%, #ff5c5c  100%);
+  background-image: linear-gradient(to bottom, #d7b8b8 0%, #ff5c5c 100%);
   position: absolute;
   z-index: -1;
   top: -8px;
@@ -38,4 +38,15 @@
   right: -8px;
   bottom: -8px;
   box-shadow: var(--boxShadow);
+}
+
+.achievement span:nth-child(3) {
+  color: var(--red);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.achievement span:nth-child(2) {
+  font-size: 20px;
+  font-weight: bold;
 }
